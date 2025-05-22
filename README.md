@@ -10,7 +10,7 @@ Al iniciar con el comando start aparece un teclado en línea, el cual muestra la
 ### Setpoint
 La opción setpoint setea una bandera para el handler y muestra un mensaje solicitando el ingreso de un número entero por parte del usuario. Como se usa MessageHandler, el mismo se dispara cada vez que el usuario realiza un igreso por teclado, pero este solo actúa cuando la bandera se encuentra en alto.
 ### Periodo
-Al seleccionar la opción periodo, se muestra otro teclado en línea con las diferentes opciones para setear el periodo. Al seleccionar el una de ellas, se publica la misma en el topico perido.
+Al seleccionar la opción periodo, se muestra otro teclado en línea con las diferentes opciones para setear el periodo. Al seleccionar una de ellas, se publica la misma en el topico perido.
 ![alt text](./images/image-1.png)
 ### Destello
 Publica la orden (1) en el topico destello.
