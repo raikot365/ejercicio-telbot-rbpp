@@ -4,8 +4,7 @@ __pycache__/
 *$py.class
 
 settings.py
-image.png
-image-1.png
+
 # C extensions
 *.so
 
