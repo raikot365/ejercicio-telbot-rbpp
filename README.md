@@ -14,5 +14,5 @@ Al seleccionar la opción periodo, se muestra otro teclado en línea con las dif
 ![alt text](./images/image-1.png)
 ### Destello
 Publica la orden (1) en el topico destello.
-## Modo y Relé
+### Modo y Relé
 Al seleccionar estas opciones, en ambos casos, aparece un teclado en línea con dos opciones; en el caso de modo las opciones son auto y manual, mientras que en el caso de relé son on y off. Estos comandos se manejan con las mismas funciones, es decir, al elegir auto o on en cada caso, se llama a la función set que publica un 1 (uno) en el topico correspondiente, el cual es guardado en la variable topico de la información de contexto del usuario cuando se selecciona la opción. De la misma manera, las funciones manual y off se manejan con la función reset, la cual publica un 0 (cero) en el topico correspondiente.
