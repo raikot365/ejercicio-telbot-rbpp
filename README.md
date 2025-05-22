@@ -1,7 +1,8 @@
 # Configuración remota mediante Telegram Bot
 
 De acuerdo a los ingresos del usuario, publíca vía mqtts las órdenes para el termostato: setpoint, periodo, destello, modo y relé.
-
+## BotUsername
+@raspbtelbot
 ## Descripción del funcionamiento
 En el bot se definen dos comandos acercade, el cual muestra información sobre el bot y start que permite la interacción con el mismo para publicar las ordenes.
 Al iniciar con el comando start aparece un teclado en línea, el cual muestra las opciones setpoint, periodo, destello, modo y relé.
